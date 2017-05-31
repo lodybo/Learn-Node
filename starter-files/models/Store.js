@@ -10,7 +10,7 @@ const storeSchema = new mongoose.Schema({
     required: 'Please enter a store name!'
   },
   slug: String,
-  descirption: {
+  description: {
     type: String,
     trim: true
   },
